@@ -1,11 +1,16 @@
 import './index.css'
+import Header from './components/Header';
+import About from './components/About';
+import Experience from './components/Experience';
 
 function App() {
 
   return (
     <>
       <div>
-        <h1 className='text-9xl text-red-600'>Vite</h1>
+        <Header/>
+        <About/>
+        <Experience/>
       </div>
     </>
   )
