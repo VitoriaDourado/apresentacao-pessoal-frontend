@@ -9,7 +9,7 @@ interface AboutMeProps {
 const AboutMe: React.FC<AboutMeProps> = ({ name, description, image }) => {
   return (
     <section className="flex flex-col items-center justify-center my-20 px-4 md:px-10 bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 py-16">
-      <h2 className="text-6xl font-bold text-gray-900 mb-5 text-center tracking-wider">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-5 text-center tracking-wider">
         Sobre <span className="text-purple-600">.</span>
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-5xl mt-10">

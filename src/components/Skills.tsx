@@ -13,8 +13,7 @@ interface SkillProps {
 const Skills: React.FC<SkillProps> = ({ skills }) => {
   return (
     <section className="my-20 px-4 md:px-10 bg-gradient-to-r from-purple-400 to-pink-400 py-16">
-      <h2 className="text-6xl font-bold text-white mb-10 text-center">Habilidades</h2>
-      
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-10 text-center">Habilidades</h2>
       <div className="flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl">
           {skills.map((category, index) => (
