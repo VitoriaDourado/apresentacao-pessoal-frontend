@@ -4,6 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import AcademicFormation from './components/Formation';
 import Skills from './components/Skills';
+import Projeto from './components/Projetos';
 
 import Perfil from '@assets/vitoria-user-img.jpeg';
 import IconLinkedin from '@assets/linkedin.png';
@@ -16,6 +17,8 @@ import Foto from '@assets/vitoria-foto.png';
 import Experiencia1 from '@assets/prefeitura-grupo.jpeg';
 import Experiencia2 from '@assets/red-district.jpeg';
 import Experiencia3 from '@assets/unifor-lider.jpeg';
+import Projeto1 from '@assets/pokemon-api.jpeg';
+import Projeto2 from '@assets/projeto-aula-simples.jpeg'
 
 const experiencesData = [
   {
@@ -47,6 +50,19 @@ const formationsData = [
     description: "Estudo de design e desenvolvimento de jogos, incluindo programação, arte 2D e 3D, e game engines como Unity."
   }
 ];
+
+const projetos = [
+  {
+    title: "Pokemon Api",
+    image: Projeto1,  
+    githubLink: "https://github.com/VitoriaDourado/PokemonApi"
+  },
+  {
+    title: "Projeto Curso Full-Stack",
+    image: Projeto2,
+    githubLink: "https://github.com/VitoriaDourado/Project_01_Aula"
+  },
+]
 
 const skillsData = [
   {
@@ -99,6 +115,7 @@ function App() {
         <Experience experiences={experiencesData} />
         <AcademicFormation formations={formationsData}/>
         <Skills skills={skillsData} />
+        <Projeto projetos={projetos}/>
       </div>
     </>
   )
