@@ -25,19 +25,19 @@ const experiencesData = [
     id: 1,
     image: Experiencia1,
     title: "Desenvolvedora de Jogos - Prefeitura de Fortaleza",
-    description: "Atuei como desenvolvedora de jogos na prefeitura de Fortaleza durante 1 Ano e meio..."
+    description: "Atuei como desenvolvedora de jogos e web na prefeitura de Fortaleza durante 1 Ano e meio."
   },
   {
     id: 2,
     image: Experiencia2,
     title: "Desenvolvedora de Jogos - Red District Studio",
-    description: "Auxiliei nas implementações do código junto com Seniors do projeto voluntário..."
+    description: "Auxiliei nas implementações do código junto com Seniors do projeto voluntário."
   },
   {
     id: 3,
     image: Experiencia3,
     title: "Unifor - Líder de projeto Full-Stack",
-    description: "Atualmente, sou bolsista na Unifor e líder de um projeto que envolve a criação de um site..."
+    description: "Atualmente, sou bolsista na Unifor e líder de um projeto que envolve a criação de um site, nele utilizo padrões de commits e ensino a minha equipe sobre conceitos de React e TypeScript, no geral guio esse trabalho tanto no front-end quanto no back-end."
   }
 ];
 
