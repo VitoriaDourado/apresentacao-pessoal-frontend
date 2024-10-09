@@ -6,7 +6,7 @@ import AcademicFormation from './components/Formation';
 import Skills from './components/Skills';
 import Projeto from './components/Projetos';
 
-import Perfil from '@assets/vitoria-user-img.jpeg';
+import Perfil from '@assets/vitoria-user-img-cortada.jpeg';
 import IconLinkedin from '@assets/linkedin.png';
 import IconGithub from '@assets/github.png';
 import CVEnglish from '@public/curriculos/Vitoria Dourado - Curriculo Englishh.pdf';
